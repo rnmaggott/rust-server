@@ -28,6 +28,7 @@ RUST_SERVER_STARTUP_ARGUMENTS (DEFAULT: "-batchmode -load -nographics +server.se
 RUST_SERVER_IDENTITY (DEFAULT: "docker" - Mainly used for the name of the save directory)
 RUST_SERVER_PORT (DEFAULT: "" - Rust server port 28015 if left blank or numeric value)
 RUST_SERVER_SEED (DEFAULT: "12345" - The server map seed, must be an integer)
+RUST_SERVER_LEVEL (DEFAULT: "Procedural Map" - The level to load)
 RUST_SERVER_WORLDSIZE (DEFAULT: "3500" - The map size, must be an integer)
 RUST_SERVER_NAME (DEFAULT: "Rust Server [DOCKER]" - The publicly visible server name)
 RUST_SERVER_MAXPLAYERS (DEFAULT: "500" - Maximum players on the server, must be an integer)
